@@ -2,7 +2,22 @@
     padding: 0;
     box-sizing: border-box;
     margin: 0;
+    scrollbar-color: transparent transparent;
+    scrollbar-width: 0px;
+    font-family: "Muli", sans-serif;
 }
+  *::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: none;
+  }
 .navbar {
     display: flex;
     position: sticky;
@@ -12,7 +27,7 @@
     max-width: 80%;
     background-color: transparent;
     padding: 10px 0 10px 0;
-    
+    z-index: 100;
 }
 
 .navbar .logo {
@@ -30,7 +45,6 @@
 
 .navbar .navbar-items .navbarItem {
     list-style: none;
-    border: 1px solid #3dd598;
 }
 
 .navbar .navbar-items .navbarItem .navbarLink {

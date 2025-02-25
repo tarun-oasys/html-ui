@@ -1,9 +1,47 @@
-.carousel-container {
+.carousel-container .banner {
+    width: 100%;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+
+.hero-content{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: 2px solid wheat;
+    text-align: center;
+}
+
+.hero-content h1{
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.hero-content p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: #6c757d;
+}
+
+#home {
+    top: 0;
+    margin: 0 auto;
     width: 100%;
     height: 100vh;
 }
 
-.carousel-container .banner {
-    width: 100%;
-    height: 100%;
-}
+
+  ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
